@@ -7,4 +7,4 @@ spring:
         
 spring.jpa.database-platform: org.hibernate.dialect.MySQL5Dialect
 spring.datasource.url: jdbc:mysql://localhost/sample?serverTimezone=UTC
-
+spring.jpa.generate-ddl: true
